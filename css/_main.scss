@@ -1,0 +1,31 @@
+section{
+    display: flex;
+
+    
+}
+
+
+h2{
+    max-width: 40%;
+    line-height: 20px;
+}
+p{
+    max-width: 85%;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+a{
+    background-color: aqua;
+    text-decoration: none;
+    border-style:inherit;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+    margin: 8px;
+}
+span{
+    background-color:turquoise;
+    height: 30px;
+    display: inline-block;
+    top: -20px;
+}

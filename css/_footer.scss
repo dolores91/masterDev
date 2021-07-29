@@ -1,0 +1,42 @@
+footer{
+    margin-top: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.fb{
+   width: 2%;
+   border-color: $bg-primary;
+   border-radius: 50px;
+    border-style: solid;
+    width: 55px;
+    height: 45px;
+    text-align: center;
+    padding-top: 7px;
+}
+.ig{
+    width: 3%;
+    border-color: $bg-primary;
+    border-radius: 50px;
+    border-style: solid;
+    width: 55px;
+    height: 45px;
+    text-align: center;
+    padding-top: 7px;
+ }
+ .tw{
+    width: 3%;
+    border-color: $bg-primary;
+    border-radius: 50px;
+    border-style: solid;
+    width: 55px;
+    height: 45px;
+    text-align: center;
+    padding-top: 7px;
+ }
+.der{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    gap: 15px;
+}

@@ -1,5 +1,7 @@
 section{
     display: flex;
+    gap: 25px;
+    margin: 10px;
 
     
 }
@@ -7,7 +9,7 @@ section{
 
 h2{
     max-width: 40%;
-    line-height: 20px;
+    line-height: 10px;
 }
 p{
     max-width: 85%;
@@ -15,7 +17,7 @@ p{
     line-height: 30px;
 }
 a{
-    background-color: aqua;
+    background-color:$bg-primary;
     text-decoration: none;
     border-style:inherit;
     padding: 15px;
@@ -24,8 +26,23 @@ a{
     margin: 8px;
 }
 span{
-    background-color:turquoise;
+    background-color:$bg-primary;
     height: 30px;
     display: inline-block;
     top: -20px;
+}
+.numero{
+    border-radius: 50px;
+    border-style: solid;
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    padding-top: 12px;
+
+}
+.card{
+    background-color: $bg-secondary;
+    border-radius: 5px;
+    margin: 15px;
+    
 }

@@ -22,11 +22,13 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 25px;
+  margin: 10px;
 }
 
 h2 {
   max-width: 40%;
-  line-height: 20px;
+  line-height: 10px;
 }
 
 p {
@@ -36,7 +38,7 @@ p {
 }
 
 a {
-  background-color: aqua;
+  background-color: #03faee;
   text-decoration: none;
   border-style: inherit;
   padding: 15px;
@@ -46,10 +48,79 @@ a {
 }
 
 span {
-  background-color: turquoise;
+  background-color: #03faee;
   height: 30px;
   display: inline-block;
   top: -20px;
+}
+
+.numero {
+  border-radius: 50px;
+  border-style: solid;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+footer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fb {
+  width: 2%;
+  border-color: #03faee;
+  border-radius: 50px;
+  border-style: solid;
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.ig {
+  width: 3%;
+  border-color: #03faee;
+  border-radius: 50px;
+  border-style: solid;
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.tw {
+  width: 3%;
+  border-color: #03faee;
+  border-radius: 50px;
+  border-style: solid;
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.der {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 15px;
+  gap: 15px;
 }
 
 Body {
